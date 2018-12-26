@@ -7,7 +7,7 @@
         <property name="locations" value="classpath:application.properties"/>
     </bean>
 
-    <import resource="classpath:spring/redis-cache-context.xml"/>
-    <import resource="classpath:spring/mybatis-spring-context.xml"/>
+    <import resource="classpath:src/main/resources/spring/redis-cache-context.xml"/>
+    <import resource="classpath:src/main/resources/spring/mybatis-spring-context.xml"/>
 
 </beans>
